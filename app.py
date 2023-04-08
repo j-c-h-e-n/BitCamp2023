@@ -8,7 +8,7 @@ def index():
 
 @app.route('/yahentamitsi')
 def loadYahetamitsi():
-  souce.get_busyness_percentage(1000, )
+  percentage = source.get_busyness_percentage(1000, 800)
   return render_template('theYPage.html')
 
 @app.route('/251north')
