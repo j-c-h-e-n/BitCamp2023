@@ -13,11 +13,13 @@ def loadYahetamitsi():
 
 @app.route('/251north')
 def load251North():
-  return render_template('theNPage.html')
+  percentage = source.get_busyness_percentage("251North", 500)
+  return render_template('theNPage.html', percentage = percentage)
 
 @app.route('/south')
 def loadSouth():
-  return render_template('theSPage.html')
+  percentage = source.get_busyness_percentage("South", 1000)
+  return render_template('theSPage.html', percentage = percentage)
 
 if __name__ == '__main__':
     app.run(debug=True)
