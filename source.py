@@ -3,9 +3,10 @@ from datetime import datetime
 now = datetime.now()
 
 def get_busyness_percentage(nameOfDiner, maximumCapacity):
-    listaa = get_time_info()
+    time_list = get_time_info()
 
     if nameOfDiner == "Yahentamitsi":
+<<<<<<< HEAD
         #Sunday 10am - 9pm (9pm not included)
         if listaa[1] == 6:
             if listaa[0] == 10:
@@ -124,521 +125,648 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
             elif listaa[0] == 20:
                 amountOfPeople = 645
 
-        #Thrusday 7am - 9pm (9pm not included)
-        elif listaa[1] == 3:
-            if listaa[0] == 7:
+        #Sunday 10am - 9pm
+        if time_list[1] == 6:
+            if time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 8:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
-        #Friday 7am - 9pm (9pm not included)
-        elif listaa[1] == 4:
-            if listaa[0] == 7:
+        #Monday 7am - 9pm
+        elif time_list[1] == 0:
+            if time_list[0] == 7:
                 amountOfPeople = 10
-            elif listaa[0] == 8:
+            elif time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+>>>>>>> 42b5c9a8d9d2e511fda52c9d278586f7b33ba8ed
+
+        #Tuesday 7am - 9pm
+        elif time_list[1] == 1:
+            if time_list[0] == 7:
+                amountOfPeople = 10
+            elif time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
-        #Saturday 10am - 9pm (9pm not included)
-        elif listaa[1] == 5:
-            if listaa[0] == 10:
+        #Wednesday 7am - 9pm
+        elif time_list[1] == 2:
+            if time_list[0] == 7:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Thursday 7am - 9pm
+        elif time_list[1] == 3:
+            if time_list[0] == 7:
+                amountOfPeople = 10
+            elif time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Friday 7am - 9pm
+        elif time_list[1] == 4:
+            if time_list[0] == 7:
+                amountOfPeople = 10
+            elif time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Saturday 10am - 9pm
+        elif time_list[1] == 5:
+            if time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
     elif nameOfDiner == "South":
-        #Sunday 10am - 9pm (9pm not included)
-        if listaa[1] == 6:
-            if listaa[0] == 10:
+        #Sunday 10am - 9pm
+        if time_list[1] == 6:
+            if time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
-                amountOfPeople = 10
-
-        #Monday 7am - 9pm (9pm not included)
-        elif listaa[1] == 0:
-            if listaa[0] == 7:
-                amountOfPeople = 10
-            elif listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
-        #Tuesday 7am - 9pm (9pm not included)
-        elif listaa[1] == 1:
-            if listaa[0] == 7:
+        #Monday 7am - 9pm
+        elif time_list[1] == 0:
+            if time_list[0] == 7:
                 amountOfPeople = 10
-            elif listaa[0] == 8:
+            elif time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
-                amountOfPeople = 10
-
-        #Wednesday 7am - 9pm (9pm not included)
-        elif listaa[1] == 2:
-            if listaa[0] == 7:
-                amountOfPeople = 10
-            elif listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
-        #Thrusday 7am - 9pm (9pm not included)
-        elif listaa[1] == 3:
-            if listaa[0] == 7:
+        #Tuesday 7am - 9pm
+        elif time_list[1] == 1:
+            if time_list[0] == 7:
                 amountOfPeople = 10
-            elif listaa[0] == 8:
+            elif time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
-                amountOfPeople = 10
-
-        #Friday 7am - 9pm (9pm not included)
-        elif listaa[1] == 4:
-            if listaa[0] == 7:
-                amountOfPeople = 10
-            elif listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 21:
                 amountOfPeople = 10
 
-        #Saturday 10am - 9pm (9pm not included)
-        elif listaa[1] == 5:
-            if listaa[0] == 10:
+        #Wednesday 7am - 9pm
+        elif time_list[1] == 2:
+            if time_list[0] == 7:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 21:
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Thursday 7am - 9pm
+        elif time_list[1] == 3:
+            if time_list[0] == 7:
+                amountOfPeople = 10
+            elif time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Friday 7am - 9pm
+        elif time_list[1] == 4:
+            if time_list[0] == 7:
+                amountOfPeople = 10
+            elif time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
+                amountOfPeople = 10
+
+        #Saturday 10am - 9pm
+        elif time_list[1] == 5:
+            if time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+            elif time_list[0] == 21:
                 amountOfPeople = 10
     
     elif nameOfDiner == "251North":
-        #Sunday 8am - 8pm (8pm not included)
-        if listaa[1] == 6:
-            if listaa[0] == 8:
+        #Sunday 8am - 7pm
+        if time_list[1] == 6:
+            if time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-
-        #Monday 8am - 8pm (8pm not included)
-        elif listaa[1] == 0:
-            if listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
 
-        #Tuesday 8am - 8pm (8pm not included)
-        elif listaa[1] == 1:
-            if listaa[0] == 8:
+        #Monday 8am - 7pm
+        elif time_list[1] == 0:
+            if time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-
-        #Wednesday 8am - 8pm (8pm not included)
-        elif listaa[1] == 2:
-            if listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
 
-        #Thrusday 8am - 8pm (8pm not included)
-        elif listaa[1] == 3:
-            if listaa[0] == 8:
+        #Tuesday 8am - 7pm
+        elif time_list[1] == 1:
+            if time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
-                amountOfPeople = 10
-
-        #Friday 8am - 8pm (8pm not included)
-        elif listaa[1] == 4:
-            if listaa[0] == 8:
-                amountOfPeople = 10
-            elif listaa[0] == 9:
-                amountOfPeople = 10
-            elif listaa[0] == 10:
-                amountOfPeople = 10
-            elif listaa[0] == 11:
-                amountOfPeople = 10
-            elif listaa[0] == 12:
-                amountOfPeople = 10
-            elif listaa[0] == 13:
-                amountOfPeople = 10
-            elif listaa[0] == 14:
-                amountOfPeople = 10
-            elif listaa[0] == 15:
-                amountOfPeople = 10
-            elif listaa[0] == 16:
-                amountOfPeople = 10
-            elif listaa[0] == 17:
-                amountOfPeople = 10
-            elif listaa[0] == 18:
-                amountOfPeople = 10
-            elif listaa[0] == 19:
-                amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
                 amountOfPeople = 10
 
-        #Saturday 8am - 8pm (8pm not included)
-        elif listaa[1] == 5:
-            if listaa[0] == 8:
+        #Wednesday 8am - 7pm
+        elif time_list[1] == 2:
+            if time_list[0] == 8:
                 amountOfPeople = 10
-            elif listaa[0] == 9:
+            elif time_list[0] == 9:
                 amountOfPeople = 10
-            elif listaa[0] == 10:
+            elif time_list[0] == 10:
                 amountOfPeople = 10
-            elif listaa[0] == 11:
+            elif time_list[0] == 11:
                 amountOfPeople = 10
-            elif listaa[0] == 12:
+            elif time_list[0] == 12:
                 amountOfPeople = 10
-            elif listaa[0] == 13:
+            elif time_list[0] == 13:
                 amountOfPeople = 10
-            elif listaa[0] == 14:
+            elif time_list[0] == 14:
                 amountOfPeople = 10
-            elif listaa[0] == 15:
+            elif time_list[0] == 15:
                 amountOfPeople = 10
-            elif listaa[0] == 16:
+            elif time_list[0] == 16:
                 amountOfPeople = 10
-            elif listaa[0] == 17:
+            elif time_list[0] == 17:
                 amountOfPeople = 10
-            elif listaa[0] == 18:
+            elif time_list[0] == 18:
                 amountOfPeople = 10
-            elif listaa[0] == 19:
+            elif time_list[0] == 19:
                 amountOfPeople = 10
-            elif listaa[0] == 20:
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+
+        #Thursday 8am - 7pm
+        elif time_list[1] == 3:
+            if time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+
+        #Friday 8am - 7pm
+        elif time_list[1] == 4:
+            if time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
+                amountOfPeople = 10
+
+        #Saturday 8am - 7pm
+        elif time_list[1] == 5:
+            if time_list[0] == 8:
+                amountOfPeople = 10
+            elif time_list[0] == 9:
+                amountOfPeople = 10
+            elif time_list[0] == 10:
+                amountOfPeople = 10
+            elif time_list[0] == 11:
+                amountOfPeople = 10
+            elif time_list[0] == 12:
+                amountOfPeople = 10
+            elif time_list[0] == 13:
+                amountOfPeople = 10
+            elif time_list[0] == 14:
+                amountOfPeople = 10
+            elif time_list[0] == 15:
+                amountOfPeople = 10
+            elif time_list[0] == 16:
+                amountOfPeople = 10
+            elif time_list[0] == 17:
+                amountOfPeople = 10
+            elif time_list[0] == 18:
+                amountOfPeople = 10
+            elif time_list[0] == 19:
+                amountOfPeople = 10
+            elif time_list[0] == 20:
                 amountOfPeople = 10
     
 
