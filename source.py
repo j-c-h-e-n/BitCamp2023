@@ -4,9 +4,9 @@ now = datetime.now()
 
 def get_busyness_percentage(nameOfDiner, maximumCapacity):
     time_list = get_time_info()
-
+    amountOfPeople = 0
     if nameOfDiner == "Yahentamitsi":
-
+        print("(1)")
         #Sunday 10am - 9pm (9pm not included)
         if time_list[1] == 6:
             if time_list[0] == 10:
@@ -189,6 +189,7 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
 
         #Saturday 10am - 9pm
         elif time_list[1] == 5:
+            print("(2)")
             if time_list[0] == 10:
                 amountOfPeople = 103
             elif time_list[0] == 11:
@@ -211,6 +212,8 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
                 amountOfPeople = 542
             elif time_list[0] == 20:
                 amountOfPeople = 468
+            else:
+                print("(3)")
 
     elif nameOfDiner == "South":
         #Sunday 10am - 9pm
@@ -610,12 +613,15 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
                 amountOfPeople = 190
             elif time_list[0] == 19:
                 amountOfPeople = 250
+    print("hour: " +str(time_list[0]))
+    print("weekday: "+str(time_list[1]))
+    print("amount of people: " +str(amountOfPeople))
+    print("maximum capacity: " +str(maximumCapacity))
     
-
     return str(int(float(amountOfPeople) / float(maximumCapacity) * 100))
 
 def get_time_info():
     current_hour = now.strftime("%H")
     current_weekday = now.today().weekday()
-    timeList = [current_hour, current_weekday]
+    timeList = [int(current_hour), current_weekday]
     return timeList
