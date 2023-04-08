@@ -125,444 +125,299 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
             elif time_list[0] == 20:
                 amountOfPeople = 645
 
-        #Sunday 10am - 9pm
-        if time_list[1] == 6:
-            if time_list[0] == 10:
-                amountOfPeople = 10
-            elif time_list[0] == 11:
-                amountOfPeople = 10
-            elif time_list[0] == 12:
-                amountOfPeople = 10
-            elif time_list[0] == 13:
-                amountOfPeople = 10
-            elif time_list[0] == 14:
-                amountOfPeople = 10
-            elif time_list[0] == 15:
-                amountOfPeople = 10
-            elif time_list[0] == 16:
-                amountOfPeople = 10
-            elif time_list[0] == 17:
-                amountOfPeople = 10
-            elif time_list[0] == 18:
-                amountOfPeople = 10
-            elif time_list[0] == 19:
-                amountOfPeople = 10
-            elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
-
-        #Monday 7am - 9pm
-        elif time_list[1] == 0:
-            if time_list[0] == 7:
-                amountOfPeople = 10
-            elif time_list[0] == 8:
-                amountOfPeople = 10
-            elif time_list[0] == 9:
-                amountOfPeople = 10
-            elif time_list[0] == 10:
-                amountOfPeople = 10
-            elif time_list[0] == 11:
-                amountOfPeople = 10
-            elif time_list[0] == 12:
-                amountOfPeople = 10
-            elif time_list[0] == 13:
-                amountOfPeople = 10
-            elif time_list[0] == 14:
-                amountOfPeople = 10
-            elif time_list[0] == 15:
-                amountOfPeople = 10
-            elif time_list[0] == 16:
-                amountOfPeople = 10
-            elif time_list[0] == 17:
-                amountOfPeople = 10
-            elif time_list[0] == 18:
-                amountOfPeople = 10
-            elif time_list[0] == 19:
-                amountOfPeople = 10
-            elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
-
-        #Tuesday 7am - 9pm
-        elif time_list[1] == 1:
-            if time_list[0] == 7:
-                amountOfPeople = 10
-            elif time_list[0] == 8:
-                amountOfPeople = 10
-            elif time_list[0] == 9:
-                amountOfPeople = 10
-            elif time_list[0] == 10:
-                amountOfPeople = 10
-            elif time_list[0] == 11:
-                amountOfPeople = 10
-            elif time_list[0] == 12:
-                amountOfPeople = 10
-            elif time_list[0] == 13:
-                amountOfPeople = 10
-            elif time_list[0] == 14:
-                amountOfPeople = 10
-            elif time_list[0] == 15:
-                amountOfPeople = 10
-            elif time_list[0] == 16:
-                amountOfPeople = 10
-            elif time_list[0] == 17:
-                amountOfPeople = 10
-            elif time_list[0] == 18:
-                amountOfPeople = 10
-            elif time_list[0] == 19:
-                amountOfPeople = 10
-            elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
-
-        #Wednesday 7am - 9pm
-        elif time_list[1] == 2:
-            if time_list[0] == 7:
-                amountOfPeople = 10
-            elif time_list[0] == 8:
-                amountOfPeople = 10
-            elif time_list[0] == 9:
-                amountOfPeople = 10
-            elif time_list[0] == 10:
-                amountOfPeople = 10
-            elif time_list[0] == 11:
-                amountOfPeople = 10
-            elif time_list[0] == 12:
-                amountOfPeople = 10
-            elif time_list[0] == 13:
-                amountOfPeople = 10
-            elif time_list[0] == 14:
-                amountOfPeople = 10
-            elif time_list[0] == 15:
-                amountOfPeople = 10
-            elif time_list[0] == 16:
-                amountOfPeople = 10
-            elif time_list[0] == 17:
-                amountOfPeople = 10
-            elif time_list[0] == 18:
-                amountOfPeople = 10
-            elif time_list[0] == 19:
-                amountOfPeople = 10
-            elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
-
         #Thursday 7am - 9pm
         elif time_list[1] == 3:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 62
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 104
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 246
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 469
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 534
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 685
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 724
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 711
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 624
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 489
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 534
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 743
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 867
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 586
 
         #Friday 7am - 9pm
         elif time_list[1] == 4:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 65
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 168
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 279
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 346
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 579
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 713
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 865
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 679
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 495
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 345
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 357
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 516
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 621
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 547
 
         #Saturday 10am - 9pm
         elif time_list[1] == 5:
             if time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 103
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 214
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 299
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 316
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 954
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 479
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 401
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 368
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 471
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 542
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 468
 
     elif nameOfDiner == "South":
         #Sunday 10am - 9pm
         if time_list[1] == 6:
             if time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 76
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 153
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 245
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 268
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 271
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 354
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 286
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 405
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 498
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 531
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 364
 
         #Monday 7am - 9pm
         elif time_list[1] == 0:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 62
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 267
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 421
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 678
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 854
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 976
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 863
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 714
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 542
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 341
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 356
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 378
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 415
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 374
 
         #Tuesday 7am - 9pm
         elif time_list[1] == 1:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 75
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 142
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 335
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 612
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 756
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 916
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 872
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 634
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 514
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 427
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 465
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 578
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 413
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 398
 
         #Wednesday 7am - 9pm
         elif time_list[1] == 2:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 76
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 184
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 364
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 578
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 769
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 800
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 789
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 654
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 521
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 341
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 358
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 579
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 628
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 514
 
         #Thursday 7am - 9pm
         elif time_list[1] == 3:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 71
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 164
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 378
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 534
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 679
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 713
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 742
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 679
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 641
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 453
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 574
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 678
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 561
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 479
 
         #Friday 7am - 9pm
         elif time_list[1] == 4:
             if time_list[0] == 7:
-                amountOfPeople = 10
+                amountOfPeople = 63
             elif time_list[0] == 8:
-                amountOfPeople = 10
+                amountOfPeople = 211
             elif time_list[0] == 9:
-                amountOfPeople = 10
+                amountOfPeople = 364
             elif time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 699
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 875
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 968
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 852
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 587
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 349
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 234
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 340
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 561
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 574
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 490
 
         #Saturday 10am - 9pm
         elif time_list[1] == 5:
             if time_list[0] == 10:
-                amountOfPeople = 10
+                amountOfPeople = 84
             elif time_list[0] == 11:
-                amountOfPeople = 10
+                amountOfPeople = 131
             elif time_list[0] == 12:
-                amountOfPeople = 10
+                amountOfPeople = 210
             elif time_list[0] == 13:
-                amountOfPeople = 10
+                amountOfPeople = 132
             elif time_list[0] == 14:
-                amountOfPeople = 10
+                amountOfPeople = 96
             elif time_list[0] == 15:
-                amountOfPeople = 10
+                amountOfPeople = 345
             elif time_list[0] == 16:
-                amountOfPeople = 10
+                amountOfPeople = 81
             elif time_list[0] == 17:
-                amountOfPeople = 10
+                amountOfPeople = 237
             elif time_list[0] == 18:
-                amountOfPeople = 10
+                amountOfPeople = 349
             elif time_list[0] == 19:
-                amountOfPeople = 10
+                amountOfPeople = 445
             elif time_list[0] == 20:
-                amountOfPeople = 10
-            elif time_list[0] == 21:
-                amountOfPeople = 10
+                amountOfPeople = 399
+
     
     elif nameOfDiner == "251North":
         #Sunday 8am - 7pm
