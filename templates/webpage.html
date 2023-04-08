@@ -1,6 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .button { 
+        background: url(https://cdn.winsightmedia.com/platform/files/public/2022-11/background/800x1000/Blank%201800%20x%20945%20%2814%29.jpg?VersionId=IwANrhYsyWg60l9xsxAzWKVl5jLKSayT);
+        background-color: rgb(126, 88, 74); /* Green */ 
+        border: 2px solid rgb(65, 51, 38); 
+        background-size: 420px 360px;
+        size: 420px 360px;
+        width: 420px;
+        height: 360px;
+        color: white;
+        /* padding: 15px 32px; */
+        text-align: center;
+        font-size:16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button1 {
+        background: url(https://dining.umd.edu/sites/default/files/styles/optimized/public/2021-03/hero-img-south2.png?itok=uLl0ngiD);
+        background-color: rgb(126, 88, 74); /* Green */ 
+        border: 2px solid rgb(65, 51, 38); 
+        background-size: 420px 360px;
+        size: 420px 360px;
+        width: 420px;
+        height: 360px;
+        color: white;
+        /* padding: 15px 32px; */
+        text-align: center;
+        font-size:16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button2{
+        background: url(https://cdn.usarestaurants.info/assets/uploads/b9bf5291efa02249a432bc5f8fa63bf4_-united-states-maryland-prince-georges-county-berwyn-college-park-934083-251-north-dining-hallhtm.jpg);
+        background-color: rgb(126, 88, 74); /* Green */ 
+        border: 2px solid rgb(65, 51, 38); 
+        background-size: 420px 360px;
+        width: 420px;
+        height: 360px;
+        color: white;
+        /* padding: 15px 32px; */
+        text-align: center;
+        font-size:16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button:hover {opacity: 1}
+      .button1:hover {opacity: 1}
+      .button2:hover {opacity: 1}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,13 +72,31 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
+
   <body>
     <main>
       <center> 
         <h1>CAPACITY COUNTER</h1> 
+        <br>
+
+        <br>
+        <a href="/south" class="button1">
+          South Dining Hall
+        </a>
+        <br>
+        <a href="/251north" class="button2">251 North Dining Hall</a>
+        <br>
+        <div>
+          <img src="https://cdn.winsightmedia.com/platform/files/public/2022-11/background/800x1000/Blank%201800%20x%20945%20%2814%29.jpg?VersionId=IwANrhYsyWg60l9xsxAzWKVl5jLKSayT" width="420px" height="360px">
+          <a href="/yahentamitsi" class="button">
+            Yahentamitsi Dining Hall
+          </a>
+        </div>
+        <br>
+        <img src="https://dining.umd.edu/sites/default/files/styles/optimized/public/2021-03/hero-img-south2.png?itok=uLl0ngiD" width="420" height="360">
+        <br>
+        <img src="https://cdn.usarestaurants.info/assets/uploads/b9bf5291efa02249a432bc5f8fa63bf4_-united-states-maryland-prince-georges-county-berwyn-college-park-934083-251-north-dining-hallhtm.jpg" width="420" height="360">
       </center>
-      <button type="submit" formaction="/yahentamitsi">Click Me</button>
-      <a class="button" href="/yahentamitsi">Check the Yahentamitsi Dining Hall Capacity</a>
     </main>
   </body>
 </html>
