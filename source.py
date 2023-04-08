@@ -1,6 +1,7 @@
 dinerName
 amountOfPeople
 
-def get_busyness_percentage(maximumCapacity, amountOfPeople, staffWorkers):
-    return percentage = ((amountOfPeople - staffWorkers) / maximumCapacity) * 100
+def get_busyness_percentage(maximumCapacity, amountOfPeople):
+    return percentage = (amountOfPeople / maximumCapacity) * 100
         
+
