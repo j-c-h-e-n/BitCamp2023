@@ -6,7 +6,7 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
     time_list = get_time_info()
 
     if nameOfDiner == "Yahentamitsi":
-<<<<<<< HEAD
+
         #Sunday 10am - 9pm (9pm not included)
         if listaa[1] == 6:
             if listaa[0] == 10:
@@ -184,7 +184,6 @@ def get_busyness_percentage(nameOfDiner, maximumCapacity):
                 amountOfPeople = 10
             elif time_list[0] == 21:
                 amountOfPeople = 10
->>>>>>> 42b5c9a8d9d2e511fda52c9d278586f7b33ba8ed
 
         #Tuesday 7am - 9pm
         elif time_list[1] == 1:
